@@ -1,0 +1,43 @@
+<!-- oeAssignment1Jefin -->
+<div id="oeAssignment1Jefin">
+    <div class="container">
+        <div class="title-container">
+            <h2>OUR <span>BRANDS</span></h2>
+        </div>
+        <div class="logo-container">
+            <div class="logo">
+                <img data-bind="ccResizeImage: {
+                    source: '/file/general/centennial.png',
+                    alt: 'Centennial',
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'
+                }"
+                />
+            </div>
+            <div class="logo">
+                <img data-bind="ccResizeImage: {
+                    source: '/file/general/gbc.png',
+                    alt: 'GBC',
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'}"
+                />
+            </div>
+            <div class="logo">
+                <img data-bind="ccResizeImage: {
+                    source: '/file/general/greenball.png',
+                    alt: 'Greenball',
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'}"
+                />
+            </div>
+            <div class="logo">
+                <img data-bind="ccResizeImage: {
+                    source: '/file/general/kanati.png',
+                    alt: 'Kanati',
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'}"
+                />
+            </div>
+        </div>
+    </div>
+</div>

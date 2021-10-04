@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "global": false,
+  "javascript": "oeAssignment1Jefin",
+  "i18nresources": "oeAssignment1Jefin",
+  "widgetType": "oeAssignment1Jefin",
+  "availableToAllPages": true,
+  "globalEnabled": false,
+  "jsEditable": true,
+  "imports": [],
+  "config": {},
+  "translations": [
+    {
+      "name": "oeAssignment1Jefin",
+      "language": "en"
+    }
+  ]
+}
