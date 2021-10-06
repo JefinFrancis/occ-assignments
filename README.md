@@ -1,7 +1,7 @@
-# oeAssignment1Jefin Widget
+# oeES6Widget Widget
 
 ### Table of contents
-- [oeAssignment1Jefin Widget](#oeAssignment1Jefin-widget)
+- [oeSmarterHq Widget](#oesmarterhq-widget)
     - [Description](#description)
     - [Installation](#installation)
     - [Installation and Configuration](#installation-and-configuration)
@@ -45,9 +45,9 @@ version of occ which this widget has been built
 
 ### Projects using this widget
 
-* [Name of Project](Dev or Production url) 
+* [Name of Project](Dev or Production url)
 
-Please, update this document adding your project here in order to keep this tidy and trackable. 
+Please, update this document adding your project here in order to keep this tidy and trackable.
 
 ### Screen Shots
 

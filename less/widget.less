@@ -1,51 +1,81 @@
 /* ---------------------------------------------------------------------- */
-/*  OE Generic Widget Styles                                              */
+/*  OE Generic Widget Styles
 /* ---------------------------------------------------------------------- */
-#oeAssignment1Jefin {
-    background-color: #000;
-    color: #fff;
-    padding: 3.5em 0;
-    
-    .container {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        .title-container {
-            align-self: flex-start;
-            margin: 0 0 1em 0;
+#oeAssignment2Jefin2 {
+    .container-description-wrapper {
+        background-image: linear-gradient(to bottom, rgba(115, 115, 115, .2) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);
+        height          : 12em;
 
-            h2 {
-                margin: auto;
-                font-weight: bold;
-                font-size: x-large;
-                span {
-                    font-weight: lighter;
+        .container-description {
+            height : 100%;
+            margin : auto;
+            display: flex;
+            width  : 70%;
+
+            .container-company-logo {
+                height : 100%;
+                display: flex;
+
+                .company-logo {
+                    font-size  : 2em;
+                    font-weight: bolder;
+                    line-height: 80%;
+                    margin     : auto;
+
+                    span {
+                        font-weight: lighter;
+                    }
+                }
+            }
+
+            .divider {
+                width     : 5px;
+                height    : 5em;
+                margin    : auto 20px;
+                background: #e7e7e7;
+            }
+
+            .description {
+                height : 100%;
+                display: flex;
+
+                p {
+                    margin   : auto;
+                    font-size: small;
                 }
             }
         }
-    
-        .logo-container {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            justify-content: space-evenly;
-        
-            .logo {
-                background-color: #fff;
-                border-radius: 5px;
-                text-align: center;
-                width: 24%;
 
-                #cc_img__resize_wrapper {
-                    display: flex;
 
-                    img {
-                        max-width: 75%;
-                        margin: auto;
-                    }
-                }
+    }
+
+    .grid-container {
+        width                : 100%;
+        display              : grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        .card-image {
+            height             : 12em;
+            background-size    : 100%;
+            text-align         : center;
+            cursor             : pointer;
+            background-position: center;
+            background-repeat  : no-repeat;
+            transition         : all 0.3s;
+
+            &:hover {
+                background-size: 110%;
+            }
+
+            .card-name {
+                display         : flex;
+                justify-content : center;
+                align-items     : center;
+                height          : 100%;
+                background-image: linear-gradient(to right, rgba(0,0,0,.4) 10%, rgba(255,255,255,0.1));
+                color           : #fff;
+                font-weight     : bolder;
+                font-size       : medium;
             }
         }
     }

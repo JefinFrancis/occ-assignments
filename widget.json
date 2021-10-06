@@ -1,18 +1,13 @@
 {
-  "version": 1,
-  "global": false,
-  "javascript": "oeAssignment1Jefin",
-  "i18nresources": "oeAssignment1Jefin",
-  "widgetType": "oeAssignment1Jefin",
+  "name": "oeAssignment2Jefin2",
+  "widgetType": "oeAssignment2Jefin2",
+  "i18nresources": "oeAssignment2Jefin2",
+  "javascript": "oeAssignment2Jefin2",
   "availableToAllPages": true,
+  "global": false,
   "globalEnabled": false,
+  "version": 1,
   "jsEditable": true,
   "imports": [],
-  "config": {},
-  "translations": [
-    {
-      "name": "oeAssignment1Jefin",
-      "language": "en"
-    }
-  ]
+  "config": {}
 }

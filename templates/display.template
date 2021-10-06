@@ -1,43 +1,46 @@
-<!-- oeAssignment1Jefin -->
-<div id="oeAssignment1Jefin">
-    <div class="container">
-        <div class="title-container">
-            <h2>OUR <span>BRANDS</span></h2>
-        </div>
-        <div class="logo-container">
-            <div class="logo">
-                <img data-bind="ccResizeImage: {
-                    source: '/file/general/centennial.png',
-                    alt: 'Centennial',
-                    errorSrc: '/file/general/nopic.jpg',
-                    errorAlt: 'Image not found'
-                }"
-                />
+<!-- oeAssignment2Jefin2 -->
+<div id="oeAssignment2Jefin2">
+    <div class="container-description-wrapper">
+        <div class="container-description">
+            <div class="container-company-logo">
+                <h2 class="company-logo">
+                    GREENBALL
+                    <br>
+                    <span>
+                        PRODUCTS
+                    </span>
+                </h2>
             </div>
-            <div class="logo">
-                <img data-bind="ccResizeImage: {
-                    source: '/file/general/gbc.png',
-                    alt: 'GBC',
-                    errorSrc: '/file/general/nopic.jpg',
-                    errorAlt: 'Image not found'}"
-                />
+            <div class="divider">
+                <!-- Line -->
             </div>
-            <div class="logo">
-                <img data-bind="ccResizeImage: {
-                    source: '/file/general/greenball.png',
-                    alt: 'Greenball',
-                    errorSrc: '/file/general/nopic.jpg',
-                    errorAlt: 'Image not found'}"
-                />
-            </div>
-            <div class="logo">
-                <img data-bind="ccResizeImage: {
-                    source: '/file/general/kanati.png',
-                    alt: 'Kanati',
-                    errorSrc: '/file/general/nopic.jpg',
-                    errorAlt: 'Image not found'}"
-                />
+            <div class="description">
+                <p>
+                    For over fourty years we've dedicated overselves to meeting our customer's needs and demands. By
+                    offering a
+                    wide selection of tire products accompanied with efficient and friendly service, Greenball has
+                    proven to be a
+                    reliable business partner for customers at the retail, wholesale and OEM levels.
+                </p>
             </div>
         </div>
     </div>
+
+    <div class="grid-container" data-bind="foreach: cards">
+        <!-- <div class="card"> -->
+        <div class="card-image" data-bind="
+                /*ccResizeImage: {
+                    source: imageUrl,
+                    alt: 'GBC',
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'
+                },*/
+                style: {
+                    backgroundImage: 'url('+imageUrl+')',
+                },
+                click: goToPage.bind($data, redirectUrl) ">
+            <span class="card-name" data-bind="text: cardName"></span>
+        </div>
+    </div>
+
 </div>
