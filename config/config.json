@@ -1,6 +1,13 @@
 {
-    "widgetDescriptorName": "OE ES6 Widget",
+    "widgetDescriptorName": "oeAssignment5Jefin",
     "properties": [
-
+        {
+            "id": "collectionItem",
+            "name": "collectionPickerValue",
+            "type": "collectionType",
+            "helpTextResourceId": "brandsPickedHelpText",
+            "labelResourceId": "brandsPickedLabel",
+            "maxLength": 4
+        }
     ]
 }

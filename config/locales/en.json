@@ -1,6 +1,6 @@
 {
   "resources": {
-    "Label": "",
-    "HelpText": ""
+    "brandsPickedHelpText": "Choose the brands to appear in the storefront",
+    "brandsPickedLabel": "Choose the Brands (Max 4 brands)"
   }
 }
