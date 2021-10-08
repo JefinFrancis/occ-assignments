@@ -33,7 +33,6 @@ export class Sample extends BaseWidget {
   getCollection() {
     let data = {};
     data[ccConstants.CATEGORY_IDS] = this.collectionIds.join(',');
-    console.log("Im Data", data);
 
     ccRestClient.request(
       ccConstants.ENDPOINT_LIST_COLLECTIONS,
