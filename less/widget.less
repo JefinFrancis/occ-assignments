@@ -1,74 +1,48 @@
 /* ---------------------------------------------------------------------- */
 /*  OE Generic Widget Styles
 /* ---------------------------------------------------------------------- */
-#oeAssignment5Jefin {
-    background-color: #000;
-    color           : #fff;
-    padding         : 3.5em 0;
-
-    .container {
-        width         : 80%;
+#oeAssignment3Jefin {
+    .parent-container {
         display       : flex;
+        text-align    : center;
         flex-direction: column;
-        align-items   : center;
+        background    : #fafafa;
+        padding       : 2em;
 
-        .title-container {
-            align-self: flex-start;
-            margin    : 0 0 1em 0;
-
-            h2 {
-                margin     : auto;
-                font-weight: bold;
-                font-size  : x-large;
-
-                span {
-                    font-weight: lighter;
-                }
+        .container-title {
+            h3 {
+                margin     : 0 0 20px 0;
+                font-weight: normal;
             }
         }
 
-        .logo-container {
+        .container-elements {
             display        : flex;
-            flex-direction : row;
-            width          : 100%;
-            justify-content: space-evenly;
+            justify-content: center;
+            column-gap     : 3em;
+            flex-wrap      : wrap;
 
-            .logo {
-                cursor          : pointer;
-                background-color: #fff;
-                border-radius   : 5px;
-                text-align      : center;
-                width           : 24%;
-                position        : relative;
+            .element {
+                width          : 10em;
+                height         : 10em;
+                border-radius  : 3px;
+                display        : flex;
+                flex-direction : column;
+                justify-content: space-evenly;
 
                 &:hover {
-                    .brand-name {
-                        display: flex;
-                    }
-                }
-
-                .brand-name {
-                    display         : none;
-                    color           : black;
-                    position        : absolute;
-                    height          : 100%;
-                    width           : 100%;
-                    justify-content : center;
-                    align-items     : center;
-                    font-size       : large;
-                    font-weight     : bold;
-                    border-radius   : inherit;
-                    background-color: rgba(255, 255, 255, 0.6);
+                    background: rgba(255, 255, 255, 0.4);
+                    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .4);
                 }
 
                 #cc_img__resize_wrapper {
-                    display: flex;
+                    height: auto !important;
 
                     img {
-                        max-width: 75%;
-                        margin   : auto;
+                        width: 45%;
                     }
                 }
+
             }
         }
     }
