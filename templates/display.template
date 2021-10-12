@@ -29,16 +29,10 @@
     <div class="grid-container" data-bind="foreach: cards">
         <!-- <div class="card"> -->
         <div class="card-image" data-bind="
-                /*ccResizeImage: {
-                    source: imageUrl,
-                    alt: 'GBC',
-                    errorSrc: '/file/general/nopic.jpg',
-                    errorAlt: 'Image not found'
-                },*/
                 style: {
                     backgroundImage: 'url('+imageUrl+')',
                 },
-                click: goToPage.bind($data, redirectUrl) ">
+                click: $parent.goToPage.bind($data, redirectUrl) ">
             <span class="card-name" data-bind="text: cardName"></span>
         </div>
     </div>

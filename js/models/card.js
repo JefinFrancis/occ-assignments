@@ -10,8 +10,4 @@ export default class CardModel {
         this.imageUrl = imageUrl;
         this.redirectUrl = redirectUrl;
     }
-
-    goToPage(url) {
-        window.open(url, '_blank');
-    }
 };
