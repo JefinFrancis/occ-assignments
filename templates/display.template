@@ -5,7 +5,7 @@
             <h2>OUR <span>BRANDS</span></h2>
         </div>
         <div class="logo-container" data-bind="foreach: brands">
-            <div class="logo" data-bind="click: goToPage.bind($data, brandUrl)">
+            <div class="logo" data-bind="click: $parent.goToPage.bind($data, brandUrl)">
                 <div data-bind="text: brandName" class="brand-name">
                 </div>
                 <img data-bind="ccResizeImage: {

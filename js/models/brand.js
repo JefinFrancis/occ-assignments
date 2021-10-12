@@ -9,8 +9,4 @@ export default class BrandModel {
         this.brandLogo = brandLogo;
         this.brandUrl = brandUrl;
     }
-
-    goToPage(url) {
-        window.open(url, '_blank');
-    }
 };
