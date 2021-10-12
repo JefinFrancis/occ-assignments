@@ -30,6 +30,11 @@ export class Sample extends BaseWidget {
   @exportToViewModel
   brands = ko.observableArray();
 
+  @exportToViewModel
+  goToPage(url) {
+    window.open(url, '_blank');
+  }
+
   getCollection() {
     let data = {};
     data[ccConstants.CATEGORY_IDS] = this.collectionIds.join(',');
