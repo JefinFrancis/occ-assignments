@@ -12,7 +12,7 @@
                     errorSrc: '/file/general/nopic.jpg',
                     errorAlt: 'Image not found'
                 },
-                click: goToPage.bind($data, redirectUrl) 
+                click: $parent.goToPage.bind($data, redirectUrl) 
                 ">
                 <div data-bind="text: categoryName"></div>
             </div>

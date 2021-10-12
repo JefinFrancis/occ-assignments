@@ -7,7 +7,6 @@ import { BaseWidget } from 'occ-components/widget-core';
 /**
  * Libraries, Helpers
  */
-import ko from 'knockout';
 
 /**
  * Models
@@ -26,12 +25,13 @@ export class Sample extends BaseWidget {
     new CategoryModel('file/general/softwares.png', 'SOFTWARE', 'category/software')
   ];
 
+  @exportToViewModel
+  goToPage(url) {
+    window.open(url, "_blank");
+  }
+
   constructor() {
     //Constructing the BaseWidget
     super();
-  }
-
-  beforeAppear() {
-    console.log('[BEFORE APPEAR] Sample');
   }
 }
