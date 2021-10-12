@@ -1,8 +1,9 @@
 {
-  "name": "oeAssignment3Jefin",
-  "widgetType": "oeAssignment3Jefin",
-  "i18nresources": "oeAssignment3Jefin",
-  "javascript": "oeAssignment3Jefin",
+  "name": "oeAssignment6Jefin",
+  "widgetType": "oeAssignment6Jefin",
+  "i18nresources": "oeAssignment6Jefin",
+  "javascript": "oeAssignment6Jefin",
+  "defaultLayout": "oeAssignment6JefinDefaultLayout",
   "availableToAllPages": true,
   "global": false,
   "globalEnabled": false,

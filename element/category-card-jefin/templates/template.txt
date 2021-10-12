@@ -1,0 +1,15 @@
+<!-- ko if: initialized() && $data.elements.hasOwnProperty('category-card-jefin') -->
+<div id="category-card-jefin">
+  <div class="element" data-bind="click: goToPage.bind($elementInstance, $elementInstance.config.image.link) ">
+    <!-- <textarea data-bind="text: JSON.stringify($elementInstance)" cols="30" rows="10"></textarea> -->
+    <img data-bind="ccResizeImage: {
+                    source: $elementInstance.config.image.src,
+                    alt: $elementInstance.config.image.altText,
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'
+                }
+                ">
+    <div data-bind="widgetLocaleText: {custom: $elementInstance.textId, value: 'Error', attr:'innerText'}"></div>
+  </div>
+</div>
+<!-- /ko -->

@@ -1,0 +1,28 @@
+{
+  "availableToAllWidgets": false,
+  "configOptions": [
+    "image",
+    "textBox",
+    "preview"
+  ],
+  "global": false,
+  "inline": false,
+  "supportedWidgetType": [
+    "oeAssignment6Jefin"
+  ],
+  "tag": "category-card-jefin",
+  "translations": [
+    {
+      "language": "en",
+      "title": "category-card",
+      "description": "Category card box"
+    },
+    {
+      "language": "pt_BR",
+      "title": "category-card",
+      "description": "Elemento genérico"
+    }
+  ],
+  "type": "fragment",
+  "version": 1
+}
