@@ -1,7 +1,7 @@
 <div id="oeAssignment6Jefin" data-oc-id="oeAssignment6JefinTemplateRegion">
   <div class="parent-container">
     <div class="container-title">
-      <h3 data-bind="widgetLocaleText: 'elementTitle'">Shop By Category</h3>
+      <h3 data-bind="widgetLocaleText: 'elementTitle'"></h3>
     </div>
     <div class="container-elements">
       <!-- oc layout: panels -->
