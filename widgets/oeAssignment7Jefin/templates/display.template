@@ -1,0 +1,10 @@
+<!-- oeAssignment7Jefin -->
+<div id="oeAssignment7Jefin">
+    <img class="carousel-image" data-bind="ccResizeImage: {
+                    source: bannerImage.src,
+                    alt: bannerTitle,
+                    size: '400,1680',
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'
+                }">
+</div>

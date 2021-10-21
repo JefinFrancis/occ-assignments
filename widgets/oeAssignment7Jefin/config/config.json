@@ -1,0 +1,30 @@
+{
+    "widgetDescriptorName": "OE ES6 Widget",
+    "properties": [
+        {
+            "id": "bannerImage",
+            "name": "bannerImageValue",
+            "type": "mediaType",
+            "helpTextResourceId": "bannerImageHelpText",
+            "labelResourceId": "bannerImageLabel"
+        },
+        {
+            "id": "bannerTitle",
+            "type": "stringType",
+            "helpTextResourceId": "bannerTitleHelpText",
+            "labelResourceId": "bannerTitleLabel",
+            "defaultValue": "Hello World",
+            "required": false,
+            "maxLength": 50
+        },
+        {
+            "id": "bannerText",
+            "type": "stringType",
+            "helpTextResourceId": "bannerTextHelpText",
+            "labelResourceId": "bannerTextLabel",
+            "defaultValue": "",
+            "required": false,
+            "maxLength": 50
+        }
+    ]
+}

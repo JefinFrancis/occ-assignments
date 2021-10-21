@@ -1,0 +1,10 @@
+{
+  "resources": {
+    "bannerImageHelpText": "Choose the promotion banner image",
+    "bannerImageLabel": "Choose banner image",
+    "bannerTitleHelpText": "Title",
+    "bannerTitleLabel": "Title Label",
+    "bannerTextHelpText": "Content",
+    "bannerTextLabel": "Content"
+  }
+}
