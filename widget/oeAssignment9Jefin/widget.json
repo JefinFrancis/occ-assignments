@@ -1,0 +1,13 @@
+{
+  "name": "oeAssignment9Jefin",
+  "widgetType": "oeAssignment9Jefin",
+  "i18nresources": "oeAssignment9Jefin",
+  "javascript": "oeAssignment9Jefin",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}
