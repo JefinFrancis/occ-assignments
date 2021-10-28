@@ -8,6 +8,7 @@ import { BaseWidget } from 'occ-components/widget-core';
  * Libraries, Helpers
  */
 import ko from 'knockout';
+import appLevel from 'ccResourceLoader!global/oeAssignment10Jefin';
 
 /**
  * Models
@@ -39,21 +40,8 @@ export class Sample extends BaseWidget {
     };
     this.$data.loading(true);
 
-    let viewModel = this;
-    $.ajax({
-      url: "/ccstorex/custom/v1/currencyConverter",
-      type: "POST",
-      contentType: "application/json",
-      data: ko.toJSON(data),
-      success: function (result) {
-        viewModel.$data.convertedCurrency.amount(result.convertedCurrency.amount);
-        viewModel.$data.convertedCurrency.symbol(result.convertedCurrency.symbol);
-        viewModel.$data.loading(false);
-      },
-      error: function (err) {
-        console.log(err);
-      }
-    });
+    // Converted ajax call inside App-Level
+    appLevel.oeAssignment10Jefin.convertCurrency(this, data);
   }
 
 
